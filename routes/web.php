@@ -1,9 +1,6 @@
 <?php
 
-use App\Livewire\UseManager;
 use Illuminate\Support\Facades\Route;
-
-Route::get('/usuario', UseManager::class);
 
 Route::get('/', function () {
     return view('welcome');
